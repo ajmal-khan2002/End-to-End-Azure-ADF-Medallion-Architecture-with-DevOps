@@ -25,8 +25,7 @@ I uploaded images instead of directly connecting the project from Azure DevOps t
 - Watermark-based pattern
 - Lookup + Stored Procedure activities
 - Only new/changed records processed
-- <img width="623" height="260" alt="Screenshot 2026-04-19 181809" src="https://github.com/user-attachments/assets/29ae50ed-142c-4281-9c68-10e81ebbfcaa" />
-90% reduction in processing time vs full load
+- 90% reduction in processing time vs full load
 
 ### 3. Medallion Architecture (Bronze/Silver/Gold)
 - Bronze: Raw data as-is from source
@@ -77,6 +76,9 @@ I uploaded images instead of directly connecting the project from Azure DevOps t
 
 ### Azure DevOps — Build Pipeline
 <img width="958" height="439" alt="Screenshot 2026-04-19 165707" src="https://github.com/user-attachments/assets/4e9e49c2-3417-4abd-bcc0-a05310fda652" />
+
+### Logic App Alter Email when Pipeline Failed : 
+<img width="623" height="260" alt="Screenshot 2026-04-19 181809" src="https://github.com/user-attachments/assets/29ae50ed-142c-4281-9c68-10e81ebbfcaa" />
 
 ###  Other Image : 
 <img width="960" height="438" alt="Screenshot 2026-04-19 165624" src="https://github.com/user-attachments/assets/14b2bde8-7544-4528-b0bb-4995a306d398" />
