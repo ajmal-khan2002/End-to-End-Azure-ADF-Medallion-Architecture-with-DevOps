@@ -8,19 +8,9 @@ Built a complete production-level data engineering pipeline on Microsoft Azure u
 (ADF) as the primary orchestration tool.
 
 ---
+## Note: 
 
-## Architecture Diagram
-Source Layer → ADF Orchestration → Data Lake (ADLS Gen2)
-
-[On-Prem CSV] ──┐
-[Azure SQL DB] ──┼──► Azure Data Factory ──► Bronze Layer
-[CSV Files]   ──┘         │                  Silver Layer
-                          │                  Gold Layer
-                    Logic Apps              (ADLS Gen2)
-                    (Alerts)
-                          │
-                    Azure DevOps
-                    (CI/CD)
+I uploaded images instead of directly connecting the project from Azure DevOps to a Git repository. I attempted the integration, but due to limitations with the free subscription, the connection was not successful. As a result, I shared images of the pipeline instead.
 
 ---
 
