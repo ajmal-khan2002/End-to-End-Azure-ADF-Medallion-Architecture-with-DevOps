@@ -25,7 +25,8 @@ I uploaded images instead of directly connecting the project from Azure DevOps t
 - Watermark-based pattern
 - Lookup + Stored Procedure activities
 - Only new/changed records processed
-- ~90% reduction in processing time vs full load
+- <img width="623" height="260" alt="Screenshot 2026-04-19 181809" src="https://github.com/user-attachments/assets/29ae50ed-142c-4281-9c68-10e81ebbfcaa" />
+90% reduction in processing time vs full load
 
 ### 3. Medallion Architecture (Bronze/Silver/Gold)
 - Bronze: Raw data as-is from source
@@ -76,7 +77,6 @@ I uploaded images instead of directly connecting the project from Azure DevOps t
 
 ### Azure DevOps — Build Pipeline
 <img width="958" height="439" alt="Screenshot 2026-04-19 165707" src="https://github.com/user-attachments/assets/4e9e49c2-3417-4abd-bcc0-a05310fda652" />
----
 
 ###  Other Image : 
 <img width="960" height="438" alt="Screenshot 2026-04-19 165624" src="https://github.com/user-attachments/assets/14b2bde8-7544-4528-b0bb-4995a306d398" />
@@ -91,6 +91,7 @@ I uploaded images instead of directly connecting the project from Azure DevOps t
 <img width="1920" height="1080" alt="Screenshot (155)" src="https://github.com/user-attachments/assets/2303894d-f985-4e55-ad49-991a16cd610f" />
 <img width="1920" height="1080" alt="Screenshot (154)" src="https://github.com/user-attachments/assets/2c1ee0ca-6d3d-4ef0-bbbb-1dee2f9b3d2b" />
 <img width="960" height="326" alt="Screenshot 2026-04-19 171127" src="https://github.com/user-attachments/assets/8e2f0694-07ab-4e77-bb5a-9de3cfa7674c" />
+<img width="623" height="260" alt="image" src="https://github.com/user-attachments/assets/84bf2aab-fef6-4e25-899f-af91ad86e37b" />
 
 ---
 
