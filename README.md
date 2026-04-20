@@ -16,7 +16,7 @@ A production-grade, event-driven data pipeline orchestrated with **Azure Data Fa
 
 ## ⚙️ Key Engineering Features
 
-- **Incremental Loading:** Implemented a watermark-based pattern using **Lookup** and **Stored Procedure** activities. This reduced pipeline processing time by ~90% compared to full-load strategies.
+- **Incremental Loading:** Implemented a watermark-based pattern using **Lookup** and **Stored Procedure** activities. This reduced pipeline processing time by approximately 90% compared to full-load strategies.
 - **Medallion Architecture:** Standardized data flow from **Bronze** (raw landing) → **Silver** (validated/cleansed) → **Gold** (business-ready).
 - **CI/CD Integration:** Full Azure DevOps integration. ARM templates are automatically generated on publish and validated through build pipelines for multi-environment deployment.
 - **Event-Driven Alerting:** Decoupled alerting system using **Azure Logic Apps**. ADF failures trigger a Web Activity, sending detailed error diagnostics to stakeholders via email.
